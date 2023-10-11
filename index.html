@@ -33,6 +33,7 @@
           <!-- NAVLINKS -->
           <a href="#/about" class="nav-link">About</a>
           <a href="#/cars" class="nav-link">Cars</a>
+          <a href="#/houses" class="nav-link">Houses</a>
         </div>
       </div>
       <div class="flex-grow-1 justify-content-end align-items-center d-flex" id="authstate"></div>
@@ -46,7 +47,75 @@
     <section id="router-view">
       <!-- primary viewport -->
 
+      <div class="container-fluid">
+        <section id="FormTemplate" class="row">
+          <!-- <div class="col-12 px-5">
+            <form onsubmit="app.HousesController.createHouse(event)">
+
+              <div class="mb-2">
+                <label for="bedrooms">Bedrooms</label>
+                <input id="bedrooms" type="number" required maxlength="50" name="bedrooms" placeholder="# of bedrooms">
+              </div>
+
+              <div class="mb-2">
+                <label for="bathrooms">Bathrooms</label>
+                <input id="bathrooms" type="number" required maxlength="50" name="bathrooms"
+                  placeholder="# of bathrooms">
+              </div>
+
+              <div class="mb-2">
+                <label for="levels">Levels</label>
+                <input id="levels" type="number" required maxlength="50" name="levels" placeholder="# of levels">
+              </div>
+
+              <div class="mb-2">
+                <label for="year">Year</label>
+                <input id="year" type="number" required maxlength="4" name="year" placeholder="year...">
+              </div>
+
+              <div class="mb-2">
+                <label for="imgUrl">Image URL</label>
+                <input id="imgUrl" type="url" maxlength="500" name="imgUrl" placeholder="imgUrl...">
+              </div>
+
+              <div class="mb-2">
+                <label for="price">Price</label>
+                <input id="price" type="number" required maxlength="500" name="price" placeholder="$$$$">
+              </div>
+
+              <div class="mb-2">
+                <label for="description">Description</label>
+                <input id="description" type="text" maxlength="500" name="description" placeholder="description...">
+              </div>
+              <div class="text-end">
+                <button class="btn btn-primary pill-rounded shadow">Submit</button>
+              </div>
+
+
+            </form>
+          </div> -->
+        </section>
+        <section id="houseCardTemplate" class="row">
+          <!-- <div class="col-12 my-2 d-flex">
+            <img class="car-img"
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+              alt="${this.description}">
+            <div class="px-3">
+              <h3>${this.year}</h3>
+              <p>Bedrooms: ${this.bedrooms}</p>
+              <p>Bathrooms: ${this.bathrooms}</p>
+              <p>Levels: ${this.levels}</p>
+              <p>$${this.price}</p>
+              <p>${this.description}</p>
+              <p>${this.creatorId}</p>
+            </div>
+          </div> -->
+        </section>
+      </div>
+
     </section>
+
+
 
 
   </main>

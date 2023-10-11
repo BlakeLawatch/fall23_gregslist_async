@@ -20,7 +20,7 @@ function _drawCarForm() {
 }
 
 export class CarsController {
-  constructor () {
+  constructor() {
     console.log('cars controller loaded');
     this.getCars()
     _drawCarForm()
